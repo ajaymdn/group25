@@ -5,53 +5,80 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Group 25 Dev Website</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
-    <nav class="navbar">
-        <div class="navbar_container">
-            <a href="/" id="navbar_logo">UCL Motion Input Group 25</a> 
-            <div class="navbar__toggle" id="mobile-menu">
-                <span class="bar"></span>
-            </div> 
-            <ul class="navbar__menu">
-                <li class="navbar__item">
-                    <a href="/" class="navbar__links">
-                        Home
-                    </a>
-                </li>
-                <li class="navbar__item">
-                    <a href="/requirements.html" class="navbar__links">
-                        Requirements
-                    </a>
-                </li>
-                <li class="navbar__item">
-                    <a href="/research.html" class="navbar__links">
-                        Research
-                    </a>
-                </li>
-                <li class="navbar__item">
-                    <a href="/design.html" class="navbar__links">
-                        Design
-                    </a>
-                </li>
-                <li class="navbar__item">
-                    <a href="/implementation.html" class="navbar__links">
-                        Implementation
-                    </a>
-                </li>
-                <li class="navbar__item">
-                    <a href="/evaluation.html" class="navbar__links">
-                        Evaluation
-                    </a>
-                </li>
-                <li class="navbar__item">
-                    <a href="/appendices.html" class="navbar__links">
-                        Appendices
-                    </a>
-                </li>
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="/docs/4.0/assets/brand/bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-top" alt="">
+            UCLMI
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav center">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="/index.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Home
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="/index.html#Project_Features">Project Features</a></li>
+                  <li><a class="dropdown-item" href="/index.html#Achievements_Impact">Achievements and Impact</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="/index.html#Develop_Team">Development Team</a></li>
+                  <li><a class="dropdown-item" href="/index.html#Project_Management">Project Management</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="/requirements.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Requirements
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="/requirements.html#">Background</a></li>
+                  <li><a class="dropdown-item" href="/requirements.html#">Goals</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="/requirements.html#">Requirement Gathering</a></li>
+                  <li><a class="dropdown-item" href="/requirements.html#">Personas</a></li>
+                  <li><a class="dropdown-item" href="/requirements.html#">Use Cases</a></li>
+                  <li><a class="dropdown-item" href="/requirements.html#">MoSCoW Statement</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="/research.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Research
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="/research.html#">HCI</a></li>
+                  <li><a class="dropdown-item" href="/research.html#">Literature Review</a></li>
+                  <li><a class="dropdown-item" href="/research.html#">MosCow</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Design
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="/design.html#">UI Design</a></li>
+                  <li><a class="dropdown-item" href="/design.html#">System Design</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/implementation.html">Implementation</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/evaluation.html">Evaluation</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/appendices.html">Appendices</a>
+              </li>
             </ul>
+          </div>
+          <a class="btn btn-primary" href="#" role="button">BLOG</a>
         </div>
-    </nav>
+      </nav>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 </body>
 </html>
