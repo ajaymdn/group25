@@ -12,7 +12,7 @@
   <nav class="navbar navbar-expand-lg bg-light">
     <div class="container-fluid">
       <a class="navbar-brand" href="/index.html">
-        <img src="/docs/4.0/assets/brand/bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-top" alt="">
+        <!-- <img src="#" width="30" height="30" class="d-inline-block align-top" alt=""> -->
         UCLMI
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -100,22 +100,109 @@
     <h3>Current State-of-the-art Approach</h3>
     <p>Before proposing our own approach to solving the problem, we want to take a moment to summarize influential and state-of-the-art research in this area in the hope that it may better inform our next steps. Thus, we have chosen 8 papers, which we deemed as the most informative for the discipline of Motion Input for gaming.
     </p>
-    <ul class="list-group list-group-flush">
-      <li class="list-group-item"><h6>Challenges with implementing gesture detection</h6><ul>
-        <li>Has to be efficient enough to be happening in 
+    <div>
+    <ul class="research">
+      <li><h6>Challenges with implementing gesture detection</h6>
+        <ul>
+          <li>
+          Has to be efficient enough to be happening in 
           real-time. They advise having just a specific zone,
-           where you are looking for a specific gesture and not 
-           looking for it in the whole image.
-        </li>
-        <li>Blending with the background. This can be caused by 
+          where you are looking for a specific gesture and not 
+          looking for it in the whole image.
+          </li>
+          <li>
+          Blending with the background. This can be caused by 
           either inappropriate background OR lack of testing for 
           some skin colours. Both of these should be something that 
           we want to account something in our solution.
-        </li>
-      </ul></li>
-      <li class="list-group-item">Gesture detection</li>
-      <li class="list-group-item">Recommended drivers (with a focus on Windows-focused tools):</li>
-      <li class="list-group-item">Usage of Motion Input</li>
+          </li>
+        </ul>
+      </li>
+      <li><h6>Gesture detection</h6></li>
+      <li><h6>Recommended drivers (with a focus on Windows-focused tools):</h6></li>
+      <li><h6>Usage of Motion Input</h6></li>
     </ul>
+    </div>
+    <div class="table-responsive">
+      <table class="table table-sm table-striped table-bordered table-hover">
+        <thead>
+          <tr>
+            <th scope="col">Action</th>
+            <th scope="col">Keyboard Mapping</th>
+            <!-- Gif of the game -->
+            <th scope="col">GIF</th>
+            <th scope="col">Final Comment</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th class="scope">Movement (Running & Walking)</th>
+            <td>Mouse</td>
+            <td><img class="fixed-ratio-resize" src="images/Run.gif" alt="logo"></td>
+            <td></td>
+          </tr>
+          <tr>
+            <th class="scope">Jump</th>
+            <td>Spacebar</td>
+            <td><img class="fixed-ratio-resize" src="images/Jump.gif" alt="logo"></td>
+            <td></td>
+          </tr>
+          <tr>
+            <th class="scope">Dodge L/R</th>
+            <td>Q/E</td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <th class="scope">Attack</th>
+            <td>LMB</td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <th class="scope">Stomp Attack</th>
+            <td>CTRL</td>
+            <td><img class="fixed-ratio-resize" src="images/Stomp.gif" alt="logo"></td>
+            <td></td>
+          </tr>
+          <tr>
+            <th class="scope">Cycloop</th>
+            <td>RMB</td>
+            <td><img class="fixed-ratio-resize" src="images/Cycloop.gif" alt="logo"></td>
+            <td></td>
+          </tr>
+          <tr>
+            <th class="scope">Sonic Boom</th>
+            <td>F</td>
+            <td><img class="fixed-ratio-resize" src="images/Sonic Boom.gif" alt="logo"></td>
+            <td></td>
+          </tr>
+          <tr>
+            <th class="scope">Lock-on</th>
+            <td>C</td>
+            <td><img class="fixed-ratio-resize" src="images/Lock on.gif" alt="logo"></td>
+            <td></td>
+          </tr>
+          <tr>
+            <th class="scope">Map</th>
+            <td>M</td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <th class="scope">Boost</th>
+            <td>Shift</td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <th class="scope">Light Dash</th>
+            <td>Z</td>
+            <td></td>
+            <td></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
 </body>
 </html>
