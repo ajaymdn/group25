@@ -2441,3 +2441,10 @@ section {
   width: 60%;
   height: auto;
 }
+
+.media-scroller {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 21%;
+  overflow-x: auto;
+}
